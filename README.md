@@ -143,7 +143,7 @@ creating lists and assigning datas.
 
 set Adapter
 
-```koltin
+```kotlin
     mAdapter = ParentAdapter(this,mParentList)
     mRecyclerView.layoutManager = LinearLayoutManager(this)
     mRecyclerView.adapter = mAdapter
