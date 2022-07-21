@@ -19,7 +19,7 @@ A RecyclerView can be used inside another RecyclerView. This is known as a neste
 
 Designing for parent layout 
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -54,7 +54,7 @@ Designing for parent layout
 
 creating custom Vewholder class inside adapter class
 
-```
+```kotlin
     class ParentHolder(itemView:View):RecyclerView.ViewHolder(itemView){
         val title:TextView
         val mRecyclerView:RecyclerView
@@ -67,7 +67,7 @@ creating custom Vewholder class inside adapter class
 
 set layout from parent ViewGroup using LayoutInflater
 
-```
+```kotlin
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ParentHolder {
         val mView = LayoutInflater.from(parent.context).inflate(R.layout.parent_item, parent, false)
         return ParentHolder(mView)
@@ -76,7 +76,7 @@ set layout from parent ViewGroup using LayoutInflater
 
 implementing child Adapter in onBindViewHolder() method
 
-```
+```kotlin
     override fun onBindViewHolder(holder: ParentHolder, position: Int) {
         holder.title.text = parentList[position].title
 
@@ -91,7 +91,7 @@ implementing child Adapter in onBindViewHolder() method
 
 ### Child Layout
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -126,7 +126,7 @@ implementing child Adapter in onBindViewHolder() method
 
 creating lists and assigning datas.
 
-```
+```kotlin
     val mParentList = ArrayList<Parent>()
 
     val oscarWiningList = ArrayList<Movie>()
@@ -143,7 +143,7 @@ creating lists and assigning datas.
 
 set Adapter
 
-```
+```koltin
     mAdapter = ParentAdapter(this,mParentList)
     mRecyclerView.layoutManager = LinearLayoutManager(this)
     mRecyclerView.adapter = mAdapter
