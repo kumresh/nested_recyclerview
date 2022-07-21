@@ -7,7 +7,7 @@ A RecyclerView can be used inside another RecyclerView. This is known as a neste
 
 ## Screenshots
 
-| [![Screend Shoot](https://github.com/kumresh/nested_recyclerview/blob/main/img/first.jpeg)]  | [![Screen Shoot](https://github.com/kumresh/nested_recyclerview/blob/main/img/first.jpeg)] |
+| <img src="https://github.com/kumresh/nested_recyclerview/blob/main/img/first.jpeg" width="240">   | <img src="https://github.com/kumresh/nested_recyclerview/blob/main/img/second.jpeg" width="240"> |
 |:---:|:---:|
 
 ## Pre Requiremnt
