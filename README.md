@@ -7,8 +7,7 @@ A RecyclerView can be used inside another RecyclerView. This is known as a neste
 
 ## Screenshots
 
-| [![Screend Shoot](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  
-| [![Screen Shoot](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) |
+| [![Screend Shoot](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![Screen Shoot](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) |
 |:---:|:---:|
 
 ## Pre Requiremnt
